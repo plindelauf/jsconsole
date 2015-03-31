@@ -214,7 +214,7 @@ function warnUsage() {
   } catch (e) {}
   if (!(useSS ? sessionStorage.jsconsole : window.name)) {
     if (useSS) sessionStorage.jsconsole = 1; else window.name = 1;
-    alert('You will see this warning once per session.\n\nYou are using a remote control script on this site - if you accidently push it to production, anyone will have control of your visitor\'s browser. Remember to remove this script.');
+    // alert('You will see this warning once per session.\n\nYou are using a remote control script on this site - if you accidently push it to production, anyone will have control of your visitor\'s browser. Remember to remove this script.');
   }
 }
 
